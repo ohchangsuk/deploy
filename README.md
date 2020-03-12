@@ -27,7 +27,7 @@ deploy
  - 브라우저 가동
  - 54.180.82.140
  - 접속로그 확인 (리눅스에서 진행)
- - $ tail -f /var/apache2/access.log
+ - $ tail -f /var/log/apache2/access.log
  # 이후 작업
  - 코드수정
  - git 최신반영
