@@ -28,6 +28,10 @@ deploy
  - 54.180.82.140
  - 접속로그 확인 (리눅스에서 진행)
  - $ tail -f /var/log/apache2/access.log
+ - 모니터링하다가
+ - 빠져나가기 => ctrl +c
+ - 에러로그
+ - $ tail -f /var/log/apache2/error.log
  # 이후 작업
  - 코드수정
  - git 최신반영
