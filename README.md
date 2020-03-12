@@ -50,3 +50,9 @@ deploy
     $ rm -r -f .virtualenvs
  - 로컬 pc
    $ fab new_server
+
+# 가상 호스트가 설정된 부분
+ - deploy는 프로젝트명(deploy.json)
+ - /etc/apache2/sites-available/deploy.conf
+ - 파일 읽기
+   $ cat /etc/apache2/sites-available/deploy.conf
